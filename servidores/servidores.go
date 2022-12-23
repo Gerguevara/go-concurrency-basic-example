@@ -23,6 +23,7 @@ func GetServidores() {
 		revisarServidor(servidor, inicio)
 	}
 
+	fmt.Println("total: ", time.Since(inicio))
 }
 
 // para verficar el tipo de un paquete de go solo se pone el paquete de Go y se busca el struct que debe empezar con mayuscula
